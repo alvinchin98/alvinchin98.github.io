@@ -1,0 +1,32 @@
+.nav__container{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    font-size: 1.2rem;
+    height: 70px;
+    width: 100%;
+}
+
+.nav__container h1{
+    color: var(--white);
+}
+
+.navbar__items{
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.navbar__items a{
+    color: white;
+}
+
+.nav__active{
+    background: var(--color-bg);
+}
